@@ -1,5 +1,6 @@
 # UniVent
 * A prototype web app that serves as a central portal to share and promote cross-university events, for example CCA events, public lectures, workshops, career and networking events etc.
+* Built using AngularJS and Ionic Framework. Use Parse as the backend.
 
 ## Selling point
 * Promote cross-university interactions
