@@ -1,0 +1,18 @@
+<ion-view title="View Event">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+    <ion-refresher
+        pulling-text="Pull to refresh..."
+        on-refresh="doRefresh()">
+        </ion-refresher>
+        <form class="list">
+        <ion-list>
+            <ion-item class="item-thumbnail-left" ng-repeat="item in itemsList track by $index">
+                <img ng-src="{{item.image}}">
+                <h2>{{item.name}}</h2>
+                <p>{{item.datetime | date:'EEE dd MMM yyyy @ h:mma'}}</p>
+                <p>{{item.uni}}</p>
+            </ion-item>
+        </ion-list>
+        </form>
+    </ion-content>
+</ion-view>

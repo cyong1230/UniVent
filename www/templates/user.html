@@ -1,0 +1,25 @@
+<ion-view title="User">
+<ion-content overflow-scroll="true" padding="true" class="has-header">
+<form class="list">
+    <div class="col text-center">
+        <h2 class="title">Hi, {{user}}!</h2>
+    </div>  
+    <div class="row">
+     <div class="col text-center">
+     <button class="button button-assertive" ng-click="postEvent()">Post Event</button>
+  </div>
+</div>
+<div class="row">
+    <div class="col text-center">
+      <button class="button button-assertive" ng-click="viewEvent()">View Posted Event</button>
+  </div>
+</div>
+<div class="row">
+    <div class="col text-center">
+      <button class="button button-assertive" ng-click="logout()">Log Out</button>
+  </div>
+</div>
+</div>
+</form>
+</ion-content>
+</ion-view>

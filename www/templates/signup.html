@@ -1,0 +1,25 @@
+<ion-view title="Signup">
+    <ion-content overflow-scroll="true" padding="true" scroll="false" class="has-header">
+        <form class="list" name="registerForm" novalidate="">
+            <ion-list>
+                <label class="item item-input">
+                    <span class="input-label">Username</span>
+                    <input type="text" placeholder="" ng-model="data.username" required>
+                </label>
+                <label class="item item-input">
+                    <span class="input-label">Email</span>
+                    <input type="email" placeholder="you@domain.edu.sg" ng-model="data.email" required>
+                </label>
+                <label class="item item-input">
+                    <span class="input-label">Telephone</span>
+                    <input type="tel" placeholder="12345678" ng-model="data.phone" required>
+                </label>
+                <label class="item item-input">
+                    <span class="input-label">Password</span>
+                    <input type="password" placeholder="" ng-model="data.password" required>
+                </label>
+            </ion-list>
+            <button class="button button-stable button-block" ng-click="signupEmail()">Sign up</button>
+        </form>
+    </ion-content>
+</ion-view>

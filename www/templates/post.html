@@ -1,0 +1,65 @@
+<ion-view title="Post Event">
+<ion-nav-buttons side="primary">
+<!--   <button class="button button-assertive" ng-click="home()">
+    Back
+  </button> -->
+</ion-nav-buttons>
+<ion-nav-buttons side="secondary">
+  <button class="button button-assertive" ng-click="submit()">
+    Submit
+  </button>
+</ion-nav-buttons>
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <form class="list">
+            <label class="item item-input">
+                <span class="input-label">Event Image:</span>
+                <input type="file" ng-model="data.image" id='eventImage'>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Category:</span>
+                <select name="cat" ng-model="data.cat">
+                    <option value="1">Arts/Culture/Festival</option>
+                    <option value="2">Community Service</option>
+                    <option value="3">Competition/Contest</option>
+                    <option value="4">Conferences,Seminars &amp; Fairs</option>
+                    <option value="5">Fitness &amp; Leisure</option>
+                    <option value="6">Public lectures/Workshop</option>
+                    <option value="7">Career &amp; Networking Events</option>
+                    <option value="8">Others</option>
+                </select>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">University:</span>
+                <select name="cat" ng-model="data.uni">
+                    <option value="NTU">NTU</option>
+                    <option value="NUS">NUS</option>
+                    <option value="SMU">SMU</option>
+                </select>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Name:</span>
+                <input type="text" placeholder="Event Name" ng-model="data.name">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Venue:</span>
+                <input type="text" placeholder="" ng-model="data.venue">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Date/Time:</span>
+                <input type="datetime-local" placeholder="" ng-model="data.datetime">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Fee:</span>
+                <input type="number" placeholder="" ng-model="data.fee">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Event Details:</span>
+                <textarea placeholder="" ng-model="data.details"> </textarea>
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Registration Link:</span>
+                <input type="text" placeholder="" ng-model="data.link">
+            </label>
+        </form>
+    </ion-content>
+</ion-view>
