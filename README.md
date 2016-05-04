@@ -8,5 +8,5 @@
 * Act as an advertising platform that targeting university students
 
 ## Reference
-One of the submission in CEC-Accenture Hackathon 2016: [Proposal](https://www.facebook.com/cecaccenturehackathon/photos/pb.1685571221683268.-2207520000.1462362878./1691961091044281/?type=3&theater)
-Presentation slides: [Univent](http://prezi.com/t3tvfrz8m57k/?utm_campaign=share&utm_medium=copy&rc=ex0share)
+* One of the submission in CEC-Accenture Hackathon 2016: [Proposal](https://www.facebook.com/cecaccenturehackathon/photos/pb.1685571221683268.-2207520000.1462362878./1691961091044281/?type=3&theater)
+* Presentation slides: [Univent](http://prezi.com/t3tvfrz8m57k/?utm_campaign=share&utm_medium=copy&rc=ex0share)
